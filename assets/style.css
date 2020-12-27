@@ -1,6 +1,7 @@
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
 
+/* Body Styling */
 * {
   margin: 0;
   padding: 0;
@@ -110,7 +111,8 @@ html {
   margin: auto 0 auto 30px;
 }
 .home .home-content .text-1 {
-  font-size: 27px;
+  font-size: 25px;
+  font-weight: 400;
 }
 .home .home-content .text-2 {
   font-size: 75px;
@@ -118,7 +120,7 @@ html {
   margin-left: -3px;
 }
 .home .home-content .text-3 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
@@ -211,15 +213,21 @@ section .tittle::after {
   width: 55%;
 }
 .about .about-content .right .text {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
+  margin-bottom: 5px;
+}
+.about .about-content .right .attrib {
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
-.about .about-content .right .text span {
+.about .about-content .right .attrib span {
   color: crimson;
 }
 .about .about-content .right p {
   text-align: justify;
+  font-weight: 400;
 }
 .about .about-content .right a {
   display: inline-block;
@@ -279,12 +287,12 @@ section .tittle::after {
 }
 .services .services-content .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px 0 7px 0;
 }
-/* .services .services-content .card p {
-  text-align: center;
-} */
+.services .services-content .card .text p {
+  font-weight: 300;
+}
 
 /* Skill Section Styling */
 .skills .tittle::after {
@@ -413,11 +421,14 @@ section .tittle::after {
 }
 .project .project-content .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px 0 7px 0;
 }
 .project .project-content .card .box a {
   color: fff;
+}
+.project .project-content .card .text p {
+  font-weight: 300;
 }
 
 /* Contact Section Styling */
