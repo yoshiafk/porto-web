@@ -309,7 +309,10 @@ section .tittle::after {
 .skills .skills-content .left p {
   text-align: justify;
 }
-.skills .skills-content .left a {
+#more {
+  display: none;
+}
+.skills .skills-content .left button {
   display: inline-block;
   background: #dc143c;
   color: #fff;
@@ -322,7 +325,7 @@ section .tittle::after {
   border: 2px solid #dc143c;
   transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover {
+.skills .skills-content .left button:hover {
   color: #dc143c;
   background: none;
 }
